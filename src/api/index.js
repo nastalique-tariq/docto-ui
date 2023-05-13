@@ -3,7 +3,7 @@ import axios from "axios";
 export const API_KEY = "AIzaSyCDknTm795UKd7QZd1E629p8CEmetSSG_o";
 
 export const api = axios.create({
-  baseURL: "https://api-docto.herokuapp.com",
+  baseURL: "http://localhost:8000",
   headers: {
     "Access-Control-Allow-Origin": "*",
   },
