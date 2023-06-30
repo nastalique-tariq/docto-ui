@@ -41,7 +41,7 @@ const Recommend = () => {
             >
               <p className="truncate hover:overflow-visible hover:whitespace-pre-line">
                 <span className="text-xl font-bold">
-                  {_.startCase(doc["Doctor Name"])}
+                  Doctor #{_.startCase(doc["Doctor id"])}
                 </span>
               </p>
               <p className="text-sm italic">
